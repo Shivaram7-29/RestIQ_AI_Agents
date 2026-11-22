@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment variables
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+desktop.ini
+
+# Next.js Node.js
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+.next/
+node_modules/
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+restiq.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reports / Temp files
+/tmp/
+*.png
+/web/public/charts/
+config.bat
